@@ -1,6 +1,5 @@
 html {
     position: relative;
-    min-height: 100%;
 }
 
 body {
@@ -167,11 +166,11 @@ a {
     background-color: transparent;
     background: transparent;
     border-color: transparent;
-    -webkit-transition: all 0.8s ease-out;
-    -moz-transition: all 0.8s ease-out;
-    -o-transition: all 0.8s ease-out;
-    -ms-transition: all 0.8s ease-out;
-    transition: all 0.8s ease-out;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
 }
 
 .navbar.scrolled {
@@ -264,4 +263,17 @@ div.transbox h2 {
     height: 100%;
     width: 100%;
     z-index: 1;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.footer-light {
+    background-color: #212324;
+    color: white !important;
+}
+
+.navbar-inverse {
+    background-color: #292b2c!important;
 }
